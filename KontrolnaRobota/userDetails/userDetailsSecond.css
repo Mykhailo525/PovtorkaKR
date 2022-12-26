@@ -1,0 +1,59 @@
+/*2 варіант розвязку*/
+
+.father{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+.block{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #cecbcb;
+}
+    p1{
+        width: 30%;
+        height: 40px;
+        border: 1px solid darkslategrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .wrap{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    button{
+        width: 90%;
+        background-color: #e1e1e1;
+    }
+
+    .wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .button{
+     width: 100%;
+    }
+
+    p{
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }

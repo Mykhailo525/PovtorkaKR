@@ -1,0 +1,47 @@
+/*1 варіант розвязку*/
+.block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.wow{
+    width: 24%;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkslategrey;
+}
+
+
+
+.wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 90%;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.button{
+    width: 100%;
+    margin-top: 10px;
+}
+p{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
